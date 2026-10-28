@@ -97,3 +97,53 @@ h1{font-size:clamp(76px,8.25vw,118px);line-height:.89;letter-spacing:-1.8px}h1 e
 .films-note{font-size:10px;color:#aaa39b;margin-top:25px;padding-top:20px;border-top:1px solid var(--line)}
 @media(max-width:850px){.films-grid{gap:18px}.film-card h3{font-size:25px}}
 @media(max-width:600px){.films-grid{grid-template-columns:1fr;gap:35px}.film-card{max-width:380px;width:100%;margin-inline:auto}.film-frame video{max-height:560px}.film-card h3{font-size:30px}.film-card figcaption p{font-size:13px}}
+
+/* RSP: lectura de etiquetas y notas en celulares. */
+@media (max-width: 600px) {
+  .eyebrow,
+  .hero .eyebrow,
+  .modalities .eyebrow,
+  .contact-panel .eyebrow,
+  .workout-head .eyebrow {
+    font-size: 11px;
+    line-height: 1.6;
+    letter-spacing: .9px;
+  }
+  .brand > span { font-size: 10px; letter-spacing: .6px; }
+  .brand small { font-size: 9px; letter-spacing: 1.2px; }
+  .header-cta { font-size: 12px; gap: 10px; }
+  .hero-bottom { font-size: 11px; line-height: 1.6; gap: 8px 18px; }
+  .hero-bottom span:last-child { color: var(--muted); }
+  .card-meta,
+  .mode-tag,
+  .panel-label,
+  .coach-principles,
+  .film-number {
+    font-size: 11px;
+    line-height: 1.6;
+    letter-spacing: .7px;
+  }
+  .flip-label, .text-link, .plan-contact { font-size: 13px; }
+  .interaction-hint,
+  .card-note,
+  .films-note,
+  .example-note p,
+  .workout-foot,
+  .footer-bottom,
+  .workout-sheet caption {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+  .interaction-hint, .footer-bottom { color: var(--muted); }
+  .panel-signature span, .photo-caption p { font-size: 12px; line-height: 1.6; }
+  .photo-topline { font-size: 10px; line-height: 1.5; letter-spacing: .5px; align-items: flex-start; }
+  .photo-topline > span:first-child { min-width: 0; }
+  .photo-topline > span:last-child { flex-shrink: 0; }
+  .photo-caption > span { font-size: 11px; line-height: 1.6; letter-spacing: .6px; }
+  .workout-objective > span,
+  .coach-note > span { font-size: 11px; line-height: 1.6; letter-spacing: .5px; }
+  .workout-objective { flex-wrap: wrap; gap: 8px; }
+  .workout-objective p, .coach-note p { font-size: 12px; line-height: 1.7; }
+  .workout-sheet th, .workout-sheet td { font-size: 12px; padding-inline: 5px; }
+  .workout-foot, .footer-bottom { flex-wrap: wrap; gap: 8px 16px; }
+}
