@@ -1,0 +1,29 @@
+RSP — REDISEÑO PROFESIONAL / 29 OCTUBRE 2026
+
+Diseño naranja, carbón y blanco cálido; HTML y CSS sin JavaScript.
+Entrenamiento personalizado uno a uno destacado, online o presencial.
+CrossFit: un mes para boxes, adaptado a sus alumnos y material.
+Híbrido / HYROX: preparación para objetivos y carreras.
+Pack Box 3 en 1: un mes de CrossFit, híbrido y musculación para centros.
+
+PARA ACTUALIZAR LA WEB
+Subir los archivos de este ZIP a la raíz de ramasoraire-hue/RSP, en main.
+Reemplazar index.html y añadir los archivos WebP y las portadas JPG.
+Los estilos nuevos están dentro de index.html; no depende de style.css.
+Los archivos existentes que no se usan pueden conservarse.
+No cambiar el nombre de los videos ni de las imágenes del paquete.
+
+Los botones de consulta abren WhatsApp con el servicio seleccionado.
+Los desplegables funcionan con HTML nativo y teclado.
+Las imágenes están optimizadas; los videos se descargan al reproducirlos.
+Incluye ajustes para celular, tablet y escritorio, y movimiento reducido.
+
+PUBLICACIÓN
+Esta versión está preparada y revisada, pero no se pudo publicar:
+la conexión GitHub no tiene acceso habilitado al repositorio RSP.
+La web pública todavía no refleja este rediseño.
+
+Los valores se consultan por WhatsApp. No se fijaron descuentos ni precios.
+La preparación para HYROX no incluye inscripción al evento.
+Fecha indicada del evento: 20–21 de marzo de 2027.
+Fuente: https://hyrox.com/event/hyrox-buenos-aires/
