@@ -587,3 +587,19 @@ summary:hover { color: var(--orange); }
 @media (prefers-reduced-motion: reduce) {
   .flip-inner, .flip-face, .whatsapp-float { transition: none; }
 }
+
+
+/* Compact mobile opening. */
+@media (max-width: 600px) {
+  .hero { padding-top: 18px; }
+  .hero .eyebrow { margin-bottom: 14px; padding-block: 5px; font-size: 8px; }
+  .hero h1 { font-size: clamp(52px, 14vw, 78px); line-height: .92; }
+  .hero-lead { margin-top: 16px; font-size: 14px; line-height: 1.5; }
+  .hero-description { margin-top: 10px; font-size: 13px; line-height: 1.55; }
+  .hero-actions { margin-top: 16px; gap: 8px 16px; }
+  .hero-actions .btn { min-height: 48px; padding-block: 12px; }
+  .hero-facts { margin-top: 14px; gap: 4px; font-size: 9px; }
+  .hero-photo { margin-top: 20px; aspect-ratio: 4/3.5; }
+  .hero-bottom { padding-block: 12px; }
+  .services { padding-top: 36px; }
+}
