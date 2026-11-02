@@ -603,3 +603,30 @@ summary:hover { color: var(--orange); }
   .hero-bottom { padding-block: 12px; }
   .services { padding-top: 36px; }
 }
+
+/* Balanced desktop, tablet and mobile layout. */
+.hero { grid-template-columns: minmax(0,1.08fr) minmax(0,1fr); column-gap: 40px; }
+.hero-copy, .hero-photo, .coach-copy { min-width: 0; }
+@media (min-width: 901px) {
+ .hero { padding-top: 28px; }
+ .hero-copy { padding-block: 12px 20px; }
+ .hero h1 { font-size: clamp(72px,7.2vw,104px); }
+ .hero-photo { min-height: 560px; }
+ .hero .eyebrow { margin-bottom: 20px; }
+ .hero-lead { margin-top: 22px; }
+ .hero-actions { margin-top: 22px; }
+ .hero-facts { margin-top: 20px; }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+ .hero { column-gap: 24px; }
+ .hero h1 { font-size: clamp(48px,7.8vw,70px); }
+ .hero-photo { min-height: 510px; }
+ .hero-actions { gap: 8px; }
+ .hero-actions .btn { width: auto; }
+ .hero-facts span { flex-wrap: wrap; }
+}
+.coach-image > img { object-position: center 35%; }
+@media (max-width: 600px) {
+ .hero { grid-template-columns: minmax(0,1fr); }
+ .hero-photo { min-height: 0; }
+}
