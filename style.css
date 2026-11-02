@@ -630,3 +630,9 @@ summary:hover { color: var(--orange); }
  .hero { grid-template-columns: minmax(0,1fr); }
  .hero-photo { min-height: 0; }
 }
+
+/* Clean desktop transition from the opening to services. */
+@media (min-width: 901px) {
+ .manifesto { display: none; }
+ .services { border-top: 1px solid var(--line); padding-top: 60px; }
+}
